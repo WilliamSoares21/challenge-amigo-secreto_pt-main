@@ -36,7 +36,7 @@ function sortearAmigo() {
   } else {
     let resultado = document.getElementById('resultado');
     let listaEmbaralhada = [...listaNomes];
-    atualizarLista();
+    
     for (let i = listaEmbaralhada.length - 1; i > 0; i--) {
       let sorteado = Math.floor(Math.random() * (i + 1));
       let temp = listaEmbaralhada[i];
@@ -47,12 +47,12 @@ function sortearAmigo() {
       if (listaNomes[i] === listaEmbaralhada[i]) {
         let tempList = listaEmbaralhada[i];
         listaEmbaralhada[i] = listaEmbaralhada[listaEmbaralhada.length - 1];
-        listaEmbaralhada[i] = listaEmbaralhada[tempList.length - 1];
+        listaEmbaralhada[listaEmbaralhada.length - 1] = tempList;
       }
     }
     resultado.innerHTML = '';
     for (let i = 0; i < listaNomes.length; i++) {
-      resultado.innerHTML += `<li>${listaNomes[i]} tirou ${listaEmbaralhada[i]}</li><br>`;
+      resultado.innerHTML += `<li>${listaNomes[i]} tirou ${listaEmbaralhada[i]}</li>`;
     }
   }
 }
