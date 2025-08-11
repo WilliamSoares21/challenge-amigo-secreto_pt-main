@@ -53,7 +53,7 @@ Para acessar o projeto, basta baixar ou clonar este repositório e abrir o arqui
 Este projeto está aberto para contribuições! Sinta-se à vontade para enviar pull requests.
 
 # Pessoas Desenvolvedoras do Projeto
-| [<img src="https://avatars.githubusercontent.com/u/30351153?v=4" width=115><br><sub>William Soares</sub>](https://github.com/WilliamSoares21) |
+| [<img src="https://avatars.githubusercontent.com/u/160546453?s=400&u=6d731c014f6e356eb6061c3dddc99f3ff4070e25&v=4" width=115><br><sub>William Soares</sub>](https://github.com/WilliamSoares21) |
 | :---: |
 
 # Licença
