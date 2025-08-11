@@ -1,16 +1,30 @@
 let listaNomes = [];
 
+function normalizarNome(nome){
+  return nome.toLowerCase();
+}
+
 function adicionarAmigo() {
   let nomeAmigo = document.getElementById('amigo').value;
-
+  
   if (nomeAmigo === "") {
     alert("Campo não pode ser vazio, por gentileza, insira um nome");
     return false;
-  } else {
-    if (nomeAmigo) {
-      listaNomes.push(nomeAmigo);
-    }
   }
+
+  let nomesNormalizados  = listaNomes.map(normalizarNome);
+
+  let nomeNormalizado = normalizarNome(nomeAmigo);
+
+  if(nomesNormalizados.includes(nomeNormalizado)){
+    alert("Esse nome já está incluso na lista");
+    return;
+  }
+
+  if (nomeAmigo) {
+      listaNomes.push(nomeAmigo);
+  }
+
   atualizarLista();
   limparCampo();
 }
