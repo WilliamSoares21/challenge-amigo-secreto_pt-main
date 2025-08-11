@@ -36,7 +36,7 @@ function sortearAmigo() {
   } else {
     let resultado = document.getElementById('resultado');
     let listaEmbaralhada = [...listaNomes];
-    
+
     for (let i = listaEmbaralhada.length - 1; i > 0; i--) {
       let sorteado = Math.floor(Math.random() * (i + 1));
       let temp = listaEmbaralhada[i];
@@ -56,3 +56,14 @@ function sortearAmigo() {
     }
   }
 }
+
+function reiniciar() {
+  listaNomes = [];
+  limparCampo();
+  atualizarLista();
+  resultado.innerHTML = '';
+}
+
+let botaoReiniciar = document.getElementById('btnReiniciar');
+botaoReiniciar.addEventListener('click', reiniciar);
+
