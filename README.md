@@ -40,8 +40,13 @@ O projeto **Amigo Secreto** é uma aplicação web interativa para organizar sor
 </p>
 
 ## Vídeo de Funcionamento
+
 <p align="center">
-  <video src="assets/demonstracao-site-amigo-secreto.mp4" controls width="350"></video>
+  <a href="https://youtu.be/bEm_g30EXHE" target="_blank">
+    <img src="assets/play_circle_outline.png" alt="Assistir demonstração no YouTube" width="80"/>
+    <br>
+    <strong>Assista à demonstração no YouTube</strong>
+  </a>
 </p>
 
 # 📁 Acesso ao projeto
