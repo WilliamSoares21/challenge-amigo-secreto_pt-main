@@ -31,8 +31,16 @@ O projeto **Amigo Secreto** é uma aplicação web interativa para organizar sor
 - `Sorteio`: Realize o sorteio do amigo secreto garantindo que ninguém tire a si mesmo.
 - `Interface amigável`: Layout responsivo e intuitivo.
 
-> Demonstração: 
-> ![banner_amigos.jpg](assets/banner_amigos.jpg)
+> Demonstração Desktop:  
+> ![banner_amigos.jpg](assets/demonstracao-site-amigo-secreto.png)
+
+> Demonstração Mobile:  
+> ![demonstracao-mobile.png](assets/demonstracao-mobile.png)
+
+> Vídeo do funcionamento:  
+> <p align="center">
+>   <video src="assets/demonstracao-site-amigo-secreto.mp4" controls width="350"></video>
+> </p>
 
 # 📁 Acesso ao projeto
 Para acessar o projeto, basta baixar ou clonar este repositório e abrir o arquivo `index.html` em seu navegador.
